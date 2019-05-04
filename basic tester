@@ -1,0 +1,124 @@
+For the BASIC level, I have proved the following endpoints:
+- To star with, i passed: 'http://localhost:8000/listSpecies' and the following doc appeared:
+
+
+
+    <!DOCTYPE html>
+                                                                        <html lang="en">
+                                                                        <head>
+                                                                            <meta charset="UTF-8">
+                                                                            <title>List of species.:</title>
+                                                                        </head>
+                                                                        <body style="background-color: lightgreen;">
+                                                                            <h1>List of species:</h1>
+                                                                            <p>['mesocricetus_auratus', 'homo_sapiens', 'monodelphis_domestica', 'amphiprion_percula', 'gadus_morhua', 'procavia_capensis', 'dasypus_novemcinctus', 'mola_mola', 'mus_musculus_c57bl6nj', 'ursus_maritimus', 'ornithorhynchus_anatinus', 'pteropus_vampyrus', 'scophthalmus_maximus', 'echinops_telfairi', 'aotus_nancymaae', 'marmota_marmota_marmota', 'urocitellus_parryii', 'xiphophorus_maculatus', 'oryzias_latipes_hsok', 'labrus_bergylta', 'esox_lucius', 'petromyzon_marinus', 'anabas_testudineus', 'cricetulus_griseus_crigri', 'maylandia_zebra', 'cricetulus_griseus_chok1gshd', 'meriones_unguiculatus', 'castor_canadensis', 'apteryx_owenii', 'neolamprologus_brichardi', 'xiphophorus_couchianus', 'mus_musculus_wsbeij', 'cyanistes_caeruleus', 'otolemur_garnettii', 'mus_musculus_cbaj', 'capra_hircus', 'rhinopithecus_roxellana', 'cynoglossus_semilaevis', 'macaca_nemestrina', 'poecilia_mexicana', 'heterocephalus_glaber_female', 'felis_catus', 'numida_meleagris', 'panthera_tigris_altaica', 'panthera_pardus', 'choloepus_hoffmanni', 'spermophilus_dauricus', 'poecilia_reticulata', 'mus_pahari', 'microcebus_murinus', 'astatotilapia_calliptera', 'vicugna_pacos', 'mandrillus_leucophaeus', 'junco_hyemalis', 'notamacropus_eugenii', 'bos_taurus', 'manacus_vitellinus', 'pan_troglodytes', 'sarcophilus_harrisii', 'microtus_ochrogaster', 'calidris_pygmaea', 'pygocentrus_nattereri', 'callithrix_jacchus', 'rattus_norvegicus', 'ciona_savignyi', 'jaculus_jaculus', 'erinaceus_europaeus', 'stegastes_partitus', 'monopterus_albus', 'hippocampus_comes', 'ailuropoda_melanoleuca', 'zonotrichia_albicollis', 'gasterosteus_aculeatus', 'gambusia_affinis', 'mus_spretus', 'sus_scrofa', 'haplochromis_burtoni', 'gopherus_agassizii', 'pan_paniscus', 'xenopus_tropicalis', 'saccharomyces_cerevisiae', 'mus_musculus_aj', 'mus_musculus_129s1svimj', 'seriola_dumerili', 'dromaius_novaehollandiae', 'astyanax_mexicanus', 'ciona_intestinalis', 'nomascus_leucogenys', 'mus_spicilegus', 'chelonoidis_abingdonii', 'ictalurus_punctatus', 'cebus_capucinus', 'chinchilla_lanigera', 'mus_musculus_nodshiltj', 'colobus_angolensis_palliatus', 'anolis_carolinensis', 'lonchura_striata_domestica', 'equus_caballus', 'octodon_degus', 'periophthalmus_magnuspinnatus', 'notechis_scutatus', 'drosophila_melanogaster', 'salvator_merianae', 'ictidomys_tridecemlineatus', 'vulpes_vulpes', 'cricetulus_griseus_picr', 'rhinopithecus_bieti', 'mus_musculus_c3hhej', 'mus_musculus_fvbnj', 'myotis_lucifugus', 'latimeria_chalumnae', 'oryzias_latipes_hni', 'chrysemys_picta_bellii', 'anas_platyrhynchos_platyrhynchos', 'coturnix_japonica', 'oryctolagus_cuniculus', 'prolemur_simus', 'apteryx_rowi', 'bos_mutus', 'mus_musculus_balbcj', 'loxodonta_africana', 'cyprinodon_variegatus', 'amphilophus_citrinellus', 'acanthochromis_polyacanthus', 'oreochromis_niloticus', 'sorex_araneus', 'paramormyrops_kingsleyae', 'ochotona_princeps', 'phascolarctos_cinereus', 'macaca_fascicularis', 'scleropages_formosus', 'tupaia_belangeri', 'propithecus_coquereli', 'anser_brachyrhynchus', 'caenorhabditis_elegans', 'mus_musculus_pwkphj', 'tursiops_truncatus', 'papio_anubis', 'calidris_pugnax', 'chlorocebus_sabaeus', 'bison_bison_bison', 'canis_familiaris', 'mus_musculus_akrj', 'serinus_canaria', 'meleagris_gallopavo', 'equus_asinus_asinus', 'mus_caroli', 'nothoprocta_perdicaria', 'apteryx_haastii', 'cercocebus_atys', 'heterocephalus_glaber_male', 'mus_musculus', 'amphiprion_ocellaris', 'parus_major', 'fukomys_damarensis', 'theropithecus_gelada', 'ovis_aries', 'seriola_lalandi_dorsalis', 'pogona_vitticeps', 'oryzias_melastigma', 'mus_musculus_lpj', 'gorilla_gorilla', 'ursus_americanus', 'oryzias_latipes', 'piliocolobus_tephrosceles', 'mus_musculus_dba2j', 'cavia_aperea', 'takifugu_rubripes', 'danio_rerio', 'lepidothrix_coronata', 'eptatretus_burgeri', 'taeniopygia_guttata', 'cavia_porcellus', 'pongo_abelii', 'melopsittacus_undulatus', 'carlito_syrichta', 'fundulus_heteroclitus', 'macaca_mulatta', 'mus_musculus_casteij', 'peromyscus_maniculatus_bairdii', 'dipodomys_ordii', 'canis_lupus_dingo', 'mastacembelus_armatus', 'pelodiscus_sinensis', 'pundamilia_nyererei', 'gallus_gallus', 'ficedula_albicollis', 'kryptolebias_marmoratus', 'mus_musculus_nzohlltj', 'lepisosteus_oculatus', 'neovison_vison', 'sphenodon_punctatus', 'saimiri_boliviensis_boliviensis', 'mustela_putorius_furo', 'tetraodon_nigroviridis', 'poecilia_formosa', 'poecilia_latipinna', 'nannospalax_galili', 'crocodylus_porosus']</p>
+                                                                            <a href="/">Main page</a>
+                                                                        </body>
+                                                                        </html.>
+    What we can see in this html file is the whole list of species.
+
+- The following endpoint I have passed was 'http://localhost:8000/listSpecies?limit=10':
+    With this endpoint the user is asking us for the ten first species of the data base. What he or she is seeing on the screen is the following:
+
+    <!DOCTYPE html>
+                                                            <html lang="en">
+                                                            <head>
+                                                                <meta charset="UTF-8">
+                                                                <title>List of species.:</title>
+                                                            </head>
+                                                            <body style="background-color: lightgreen;">
+                                                                <h1>List of species:</h1>
+                                                                <p>['mus_musculus', 'homo_sapiens', 'cavia_porcellus', 'mus_musculus_cbaj', 'amphilophus_citrinellus', 'anolis_carolinensis', 'cebus_capucinus', 'labrus_bergylta', 'panthera_pardus', 'takifugu_rubripes']</p>
+                                                                <a href="/">Main page</a>
+                                                            </body>
+                                                            </html.>
+
+    This html file is printing on the screen the first ten species of the whole list. If we change one parameter (changing 10 to 75 (for example)) the html
+    file now has 75 species on it. Here is the prove:
+
+    <!DOCTYPE html>
+                                                            <html lang="en">
+                                                            <head>
+                                                                <meta charset="UTF-8">
+                                                                <title>List of species.:</title>
+                                                            </head>
+                                                            <body style="background-color: lightgreen;">
+                                                                <h1>List of species:</h1>
+                                                                <p>['mesocricetus_auratus', 'homo_sapiens', 'monodelphis_domestica', 'amphiprion_percula', 'gadus_morhua', 'procavia_capensis', 'dasypus_novemcinctus', 'mola_mola', 'mus_musculus_c57bl6nj', 'ursus_maritimus', 'ornithorhynchus_anatinus', 'pteropus_vampyrus', 'scophthalmus_maximus', 'echinops_telfairi', 'aotus_nancymaae', 'marmota_marmota_marmota', 'urocitellus_parryii', 'xiphophorus_maculatus', 'oryzias_latipes_hsok', 'labrus_bergylta', 'esox_lucius', 'petromyzon_marinus', 'anabas_testudineus', 'cricetulus_griseus_crigri', 'maylandia_zebra', 'cricetulus_griseus_chok1gshd', 'meriones_unguiculatus', 'castor_canadensis', 'apteryx_owenii', 'neolamprologus_brichardi', 'xiphophorus_couchianus', 'mus_musculus_wsbeij', 'cyanistes_caeruleus', 'otolemur_garnettii', 'mus_musculus_cbaj', 'capra_hircus', 'rhinopithecus_roxellana', 'cynoglossus_semilaevis', 'macaca_nemestrina', 'poecilia_mexicana', 'heterocephalus_glaber_female', 'felis_catus', 'numida_meleagris', 'panthera_tigris_altaica', 'panthera_pardus', 'choloepus_hoffmanni', 'spermophilus_dauricus', 'poecilia_reticulata', 'mus_pahari', 'microcebus_murinus', 'astatotilapia_calliptera', 'vicugna_pacos', 'mandrillus_leucophaeus', 'junco_hyemalis', 'notamacropus_eugenii', 'bos_taurus', 'manacus_vitellinus', 'pan_troglodytes', 'sarcophilus_harrisii', 'microtus_ochrogaster', 'calidris_pygmaea', 'pygocentrus_nattereri', 'callithrix_jacchus', 'rattus_norvegicus', 'ciona_savignyi', 'jaculus_jaculus', 'erinaceus_europaeus', 'stegastes_partitus', 'monopterus_albus', 'hippocampus_comes', 'ailuropoda_melanoleuca', 'zonotrichia_albicollis', 'gasterosteus_aculeatus', 'gambusia_affinis', 'mus_spretus']</p>
+                                                                <a href="/">Main page</a>
+                                                            </body>
+                                                            </html.>
+
+- 'http://localhost:8000/karyotype?specie=mouse' has been the next entry i asked for. It is supposed to print the karyotype of a specie. This specie is
+    the parameter which actually varies and which the user may change or not. With the entry i have tested, which is asking for the karyotype of mouse,
+    the following html is generated:
+
+    <!DOCTYPE html>
+                                                    <html lang="en">
+                                                    <head>
+                                                        <meta charset="UTF-8">
+                                                        <title>Karyotype of a specie.:</title>
+                                                    </head>
+                                                    <body style="background-color: lightblue;">
+                                                        <h1>Karyotype information:</h1>
+                                                        <p>['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', 'X', 'Y', 'MT']</p>
+                                                        <a href="/">Main page</a>
+                                                    </body>
+                                                    </html.>
+    Other example would be to, instead of introducing the specie mouse, introduce the biological o scientific name of the specie. For mouse, the name would
+    be mus_musculus (This would be the path: http://localhost:8000/karyotype?specie=mus_musculus):
+
+    <!DOCTYPE html>
+                                                    <html lang="en">
+                                                    <head>
+                                                        <meta charset="UTF-8">
+                                                        <title>Karyotype of a specie.:</title>
+                                                    </head>
+                                                    <body style="background-color: lightblue;">
+                                                        <h1>Karyotype information:</h1>
+                                                        <p>['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', 'X', 'Y', 'MT']</p>
+                                                        <a href="/">Main page</a>
+                                                    </body>
+                                                    </html.>
+
+    if our specie (human or homo_sapiens) is given as the value of the parameter. the generated html file is the following one:
+    <!DOCTYPE html>
+                                                    <html lang="en">
+                                                    <head>
+                                                        <meta charset="UTF-8">
+                                                        <title>Karyotype of a specie.:</title>
+                                                    </head>
+                                                    <body style="background-color: lightblue;">
+                                                        <h1>Karyotype information:</h1>
+                                                        <p>['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', 'X', 'Y', 'MT']</p>
+                                                        <a href="/">Main page</a>
+                                                    </body>
+                                                    </html.>
+- To continue with, 'http://localhost:8000/chromosomeLength?specie=mouse&chromo=18' this link has been tested. Here the user should introduce two
+  parameters: the specie and the chromosome. This program will generate a html file with length of the chromosome of the specie the user has introduced.
+
+  <!DOCTYPE html>
+                                                                        <html lang="en">
+                                                                        <head>
+                                                                            <meta charset="UTF-8">
+                                                                            <title>Length of a chromosome.:</title>
+                                                                        </head>
+                                                                        <body style="background-color: pink;">
+                                                                            <h1>Length of the chosen chromosome:</h1>
+                                                                            <p>90702639</p>
+                                                                            <a href="/">Main page</a>
+                                                                        </body>
+                                                                        </html.>
+  Also this can change by changing the specie given. For example the human specie with other chromosome:
+  <!DOCTYPE html>
+                                                                        <html lang="en">
+                                                                        <head>
+                                                                            <meta charset="UTF-8">
+                                                                            <title>Length of a chromosome.:</title>
+                                                                        </head>
+                                                                        <body style="background-color: pink;">
+                                                                            <h1>Length of the chosen chromosome:</h1>
+                                                                            <p>145138636</p>
+                                                                            <a href="/">Main page</a>
+                                                                        </body>
+                                                                        </html.>
