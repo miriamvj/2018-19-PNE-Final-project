@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Final practice</title>
+  </head>
+  <body>
+    <h1>Form request for Final Practice</h1>
+    <h2>BASIC level</h2>
+
+
+    <form action="listSpecies" method="get">
+      <fieldset>
+      <b>List of species</b>
+      <br><br>
+        In this first argument, you will be given the list of species. In the field 'Limit' yo can introduce the exact number you want to know.
+      <br><br>
+      Limit: <input type="text" name="limit"><br>
+      <input type="submit" value="SEND">
+        </fieldset>
+    </form>
+    <br><br>
+
+    <form action="karyotype" method="get">
+      <fieldset>
+        <b>Karyotype of a specie</b>
+      <br><br>
+        In this argument, you will be given information about the karyotype of a specie.
+      <br><br>
+      Introduce the specie: <input type="text" name="specie"><br>
+      <input type="submit" value="SEND">
+      </fieldset>
+    </form>
+  <br><br>
+
+    <form action="chromosomeLength" method="get">
+      <fieldset>
+        <b>Length of a chromosome of a specie</b>
+      <br><br>
+        Here, you will get the length of the chromosome of any specie
+      <br><br>
+      Intoduce the specie: <input type="text" name="specie">
+      <br><br>
+      Intoduce the chromosome: <input type="text" name="chromo"><br>
+      <input type="submit" value="SEND">
+      </fieldset>
+    </form>
+
+
+    <h2>MEDIUM level</h2>
+
+  <form action="geneSeq" method="get">
+      <fieldset>
+        <b>Sequence of a human gene</b>
+      <br><br>
+        In this argument, you will be given the sequence of a HUMAN gene.
+      <br><br>
+      Introduce the gene: <input type="text" name="msg"><br>
+      <input type="submit" value="SEND">
+      </fieldset>
+    </form>
+  <br><br>
+  </body>
+</html>
